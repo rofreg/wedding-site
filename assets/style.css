@@ -1,0 +1,62 @@
+@font-face {
+  font-family: 'eb_garamond12_regular';
+  src: url('ebgaramond12-regular-webfont.woff2') format('woff2'),
+        url('ebgaramond12-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: 'eb_garamond12_regular', 'Garamond', serif;
+  font-size: 22px;
+  text-align: center;
+  line-height: 150%;
+  background: #f7eddc url("asfalt-dark-40.png") 233px 174px;
+  color: #39291c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-variant-numeric: oldstyle-nums;
+}
+main, nav {
+  margin: 2em 1em;
+  max-width: 40em;
+}
+nav {
+  margin: 0 0 2em 0;
+}
+nav a {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 1em;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 200%;
+  margin-bottom: 1em;
+}
+img.header {
+  margin-bottom: 0.5em;
+  height: 313.5px;
+}
+sup {
+  font-size: 60%;
+  vertical-align: 0.25em;
+}
+p {
+  margin: 1em 0;
+}
+a {
+  color: inherit;
+}
+a.undecorated {
+  text-decoration: none;
+}
+a.undecorated:hover {
+  text-decoration: underline;
+}
