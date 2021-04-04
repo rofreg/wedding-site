@@ -65,3 +65,16 @@ a.undecorated {
 a.undecorated:hover {
   text-decoration: underline;
 }
+.faq {
+  text-align: left;
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  margin-top: 2em;
+}
+ul li {
+  list-style: disc;
+  margin-left: 1em;
+  margin-bottom: 0.5em;
+}
