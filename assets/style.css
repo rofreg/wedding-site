@@ -65,7 +65,7 @@ a.undecorated {
 a.undecorated:hover {
   text-decoration: underline;
 }
-.faq {
+div.faq, div.travel {
   text-align: left;
 }
 h2 {
@@ -77,4 +77,7 @@ ul li {
   list-style: disc;
   margin-left: 1em;
   margin-bottom: 0.5em;
+}
+strong {
+  font-weight: bold;
 }
