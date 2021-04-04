@@ -44,6 +44,11 @@ img.header {
   margin-bottom: 0.5em;
   height: 313.5px;
 }
+a.photo img {
+  display: block;
+  margin: 0 auto 1em;
+  max-width: 600px;
+}
 sup {
   font-size: 60%;
   vertical-align: 0.25em;
