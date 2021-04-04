@@ -47,6 +47,7 @@ img.header {
 a.photo img {
   display: block;
   margin: 0 auto 1em;
+  width: 100%;
   max-width: 600px;
 }
 sup {
