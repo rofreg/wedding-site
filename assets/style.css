@@ -82,3 +82,8 @@ ul li {
 ol li {
   margin-bottom: 0.5em;
 }
+p strong {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
